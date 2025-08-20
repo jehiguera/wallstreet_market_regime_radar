@@ -4,6 +4,8 @@ Live app: https://wallstreetregimeradar.streamlit.app/
 
 
 Intraday + weekly market traffic light with cross-asset comparisons and risk-on score
+<img width="1723" height="831" alt="image" src="https://github.com/user-attachments/assets/86d514f9-af68-4b21-89b7-db59d3a78925" />
+
 
 # What this app does
 
