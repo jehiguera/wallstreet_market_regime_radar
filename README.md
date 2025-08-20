@@ -44,3 +44,11 @@ YELLOW otherwise (range).
 Smoothing: short flips shorter than MIN_RUN_BARS are neutralized to YELLOW.
 
 Final daily label: prefers the last run if it’s strong enough; otherwise the dominant color (time share).
+
+# Author
+Jorge Higuera Portilla
+Email: jhiguera@ieee.org
+# License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
