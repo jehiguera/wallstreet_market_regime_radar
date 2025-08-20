@@ -19,8 +19,8 @@ import streamlit as st
 # =======================
 # Config UI (sidebar)
 # =======================
-st.set_page_config(page_title="Semaforo de mercado (intradia + cross-asset)", layout="wide")
-st.title("Semaforo de mercado: intradia + semanal + cross-asset")
+st.set_page_config(page_title="Wall Street Regime Radar (intradia + cross-asset)", layout="wide")
+st.title("Wall Street Regime Radar: intraday + week + cross-asset")
 
 with st.sidebar:
     st.header("Parametros")
@@ -593,3 +593,4 @@ if RUN_CROSS_ASSET:
             last_row = r30[cols].iloc[-1].round(2)
             for k, v in last_row.items():
                 st.write(f"- **{k:8s}** ret30d: {v: .2f}%")
+
