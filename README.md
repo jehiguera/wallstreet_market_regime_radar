@@ -1,11 +1,11 @@
-#Wall Street Regime Radar
+# Wall Street Regime Radar
 
 Live app: https://wallstreetregimeradar.streamlit.app/
 
 
 Intraday + weekly market traffic light with cross-asset comparisons and risk-on score
 
-#What this app does
+# What this app does
 
 A lightweight Streamlit dashboard that detects the current market regime (Green = uptrend, Yellow = sideways, Red = downtrend) for SPY/S&P 500, and complements it with:
 
@@ -27,7 +27,7 @@ Risk-On score (simple macro pulse):
 z(SP_30d) + z(BTC_30d) – z(GOLD_30d) – z(OIL_30d)
 Smoothed with EMA; thresholds: > +0.5 = RISK-ON, < −0.5 = RISK-OFF, else Neutral.
 
-#How the regime is computed
+# How the regime is computed
 
 Trend filter = ADX >= threshold AND |slope(log price)| >= percentile.
 
